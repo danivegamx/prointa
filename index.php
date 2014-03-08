@@ -8,6 +8,7 @@
 	<!--link rel="stylesheet" type="text/css" href="css/responsive.css" /-->
 	<script src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/prointa.js"></script>
+	<script type="text/javascript" src="js/prefixfree.min.js"></script>
 </head>
 <body>
 	<header>
@@ -19,6 +20,7 @@
 		<div id="login_wrapper">
 			<div class="login_prefix">U</div><input id="login_user" class="login_input_field" type="text" placeHolder="Usuario" required /><br>
 			<div class="login_prefix">P</div><input id="login_password" class="login_input_field" type="password" placeHolder="Contraseña" required />
+			<p><a href="#">¿Olvidaste tu contraseña?</a></p>
 			<input id="login_confirm" class="login_confirm_button" type="submit" value="Iniciar sesión" />
 		</div>
 	</header>
@@ -42,6 +44,7 @@
 		</ul>
 	</aside>
 	<section id="slider_wrapper">
+	<p class="section_title">Categorías</p>
 		<article id="slider">
 		<a id="prev" href="#"><<</a>
 		<a id="next" href="">>></a>
@@ -56,10 +59,58 @@
 	</section>
 	<hr>
 	<section id="news">
-		<p>Novedades</p>
+		<p class="section_title">Novedades</p>
+		<figure class="news_item">
+			<img src="images/muestras/01.JPG" />
+			<p class="news_price">$12.00</p>
+			<figcaption>
+				<p><strong>Utensilio</strong></p>
+				<p>12x5x10 cm</p>
+			</figcaption>
+		</figure>
+		<figure class="news_item">
+			<img src="images/muestras/01.JPG" />
+			<p class="news_price">$465.00</p>
+			<figcaption>
+				<p><strong>Marco</strong></p>
+				<p>12x5x10 cm</p>
+			</figcaption>
+		</figure>
+		<figure class="news_item">
+			<img src="images/muestras/01.JPG" />
+			<p class="news_price">$60.00</p>
+			<figcaption>
+				<p><strong>Candelabro</strong></p>
+				<p>12x5x10 cm</p>
+			</figcaption>
+		</figure>
 	</section>
 	<section id="offers">
-		<p>Ofertas</p>
+		<p class="section_title">Ofertas</p>
+		<figure class="offer_item">
+			<img src="images/muestras/01.JPG" />
+			<p class="offer_price">$130.00</p>
+			<figcaption>
+				<p><strong>Utensilio</strong></p>
+				<p>12x5x10 cm</p>
+			</figcaption>
+		</figure>
+		<figure class="offer_item">
+			<img src="images/muestras/01.JPG" />
+			<p class="offer_price">$10.50</p>
+			<figcaption>
+				<p><strong>Cubiertos</strong></p>
+				<p>12x5x10 cm</p>
+			</figcaption>
+		</figure>
+		<figure class="offer_item">
+			<img src="images/muestras/01.JPG" />
+			<p class="offer_price">$90.00</p>
+			<figcaption>
+				<p><strong>Portavasos</strong></p>
+				<p>12x5x10 cm</p>
+			</figcaption>
+		</figure>
 	</section>
 	<footer>
 		Prointa webapp v1.0
